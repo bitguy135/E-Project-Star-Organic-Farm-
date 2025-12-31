@@ -1,0 +1,2182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Organic Farm - Pure & Natural Products</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="mailto:info@starorganicfarm.com"
+              ><i class="fas fa-envelope"></i> info@starorganicfarm.com</a
+            >
+          </div>
+          <div class="col-md-6 right-section">
+            Eng <i class="fas fa-chevron-down"></i>
+            <select>
+              <option>PKR</option>
+              <option>USD</option>
+              <option>EUR</option>
+            </select>
+            <a href="#" style="margin-left: 20px">Sign In / Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-2 col-md-4">
+            <div class="logo-container">
+              <div class="logo-icon">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="logo-text">
+                <h1>STAR ORGANIC FARM</h1>
+                <p>PURE & NATURAL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="location-select">
+              <i class="fas fa-map-marker-alt"></i>
+              <select style="border: none; font-weight: 500">
+                <option>Pakistan</option>
+                <option>Australia</option>
+                <option>USA</option>
+                <option>UAE</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12">
+            <div class="search-bar">
+              <input type="text" placeholder="Search for Products..." />
+              <select>
+                <option>All Categories</option>
+                <option>Cereals</option>
+                <option>Pulses</option>
+                <option>Spices</option>
+                <option>Cooking Oils</option>
+                <option>Fruit Pulps</option>
+                <option>Wheat & Flour</option>
+                <option>Rice Products</option>
+              </select>
+              <button><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="header-icons">
+              <a href="#"><i class="fas fa-user"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#" onclick="openCart()" class="cart-info">
+                <i class="fas fa-shopping-cart">
+                  <span class="badge">0</span>
+                </i>
+                <div>
+                  <small style="font-size: 11px; display: block"
+                    >Shopping cart:</small
+                  >
+                  <strong class="cart-amount">$0.00</strong>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Hamburger Button -->
+          <div class="col-12 d-md-none">
+            <div class="nav-header">
+              <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Menu -->
+          <div class="col-md-9">
+            <ul class="nav-menu" id="navMenu">
+              <li>
+                <a href="#home" class="active">
+                  <i class="fas fa-home"></i> Home
+                </a>
+              </li>
+              <li>
+                <a href="#products">
+                  <i class="fas fa-shopping-basket"></i> Products
+                </a>
+              </li>
+              <li>
+                <a href="#showcase"> <i class="fas fa-images"></i> Showcase </a>
+              </li>
+              <li>
+                <a href="#contact">
+                  <i class="fas fa-envelope"></i> Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="hero-content">
+                    <h1>
+                      Premium <span class="highlight">Nutritious</span
+                      ><br />Organic Products
+                    </h1>
+                    <p class="hero-subtitle">
+                      Quality cereals, pulses, spices, and more.
+                    </p>
+                    <div>
+                      <span class="free-delivery">100% ORGANIC</span>
+                    </div>
+                    <p class="hero-subtitle">
+                      Farm fresh products delivered to your doorstep with care
+                      and quality assurance.
+                    </p>
+                    <div class="hero-buttons">
+                      <a href="#products" class="btn-shop">
+                        Explore Products <i class="fas fa-arrow-right"></i>
+                      </a>
+                      <a href="#contact" class="btn-video">
+                        <span class="play-icon"
+                          ><i class="fas fa-phone"></i
+                        ></span>
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="hero-image">
+                    <img
+                      src="assets/images/hero img/hero img 2.PNG"
+                      alt="Organic Cereals and Pulses"
+                    />
+                    <div class="discount-badge">
+                      <div class="number">Fresh</div>
+                      <div class="text">QUALITY</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="hero-content">
+                    <h1>
+                      Authentic <span class="highlight">Cooking Oils</span
+                      ><br />& Agro Products
+                    </h1>
+                    <p class="hero-subtitle">
+                      Pure, natural, and packed with nutrition.
+                    </p>
+                    <div>
+                      <span class="free-delivery">PREMIUM QUALITY</span>
+                    </div>
+                    <p class="hero-subtitle">
+                      From wheat flour to rice products, we offer the finest
+                      selection of organic essentials.
+                    </p>
+                    <div class="hero-buttons">
+                      <a href="#products" class="btn-shop">
+                        View Collection <i class="fas fa-arrow-right"></i>
+                      </a>
+                      <a href="#showcase" class="btn-video">
+                        <span class="play-icon"
+                          ><i class="fas fa-images"></i
+                        ></span>
+                        View Gallery
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="hero-image">
+                    <img src="assets/images/hero img/hero img 3.jpeg" alt="Dried Fruits and Nuts" />
+                    <div class="discount-badge">
+                      <div class="number">100%</div>
+                      <div class="text">PURE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="hero-content">
+                    <h1>
+                      Nature's Best <span class="highlight">Spices</span><br />&
+                      Fruit Pulps
+                    </h1>
+                    <p class="hero-subtitle">
+                      Bringing authentic flavors to your kitchen.
+                    </p>
+                    <div>
+                      <span class="free-delivery">FARM FRESH</span>
+                    </div>
+                    <p class="hero-subtitle">
+                      Experience the rich taste of our carefully sourced spices
+                      and natural fruit pulps.
+                    </p>
+                    <div class="hero-buttons">
+                      <a href="#products" class="btn-shop">
+                        Shop Now <i class="fas fa-arrow-right"></i>
+                      </a>
+                      <a href="#query" class="btn-video">
+                        <span class="play-icon"
+                          ><i class="fas fa-question"></i
+                        ></span>
+                        Ask Query
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="hero-image">
+                    <img src="assets/images/hero img/hero img 1.webp" alt="Organic Cooking Oils" />
+                    <div class="discount-badge">
+                      <div class="number">Top</div>
+                      <div class="text">RATED</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Bar -->
+    <div class="features-bar">
+      <div class="container">
+        <div class="features-container">
+          <div class="feature-item">
+            <i class="fas fa-headset"></i> 24/7 Customer Support
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-leaf"></i> 100% Organic Products
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-shield-alt"></i> Quality Guaranteed
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-seedling"></i> Farm Fresh Daily
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-truck"></i> Fast Delivery
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Categories section -->
+    <section class="categories-section">
+      <div class="container">
+        <div class="categories-header">
+          <h3>Popular Categories</h3>
+        </div>
+
+        <div class="categories-grid">
+          <div class="category-card cereals">
+            <img src="assets/images/icons/cereal.png" alt="" />
+            <h4>Nutritious Cereals</h4>
+            <p>(12 items)</p>
+          </div>
+
+          <div class="category-card pulses">
+            <img src="assets/images/icons/pulses.png" alt="" />
+            <h4>Pulses</h4>
+            <p>(10 items)</p>
+          </div>
+
+          <div class="category-card spices">
+            <img src="assets/images/icons/spices.png" alt="" />
+            <h4>Spices</h4>
+            <p>(18 items)</p>
+          </div>
+
+          <div class="category-card oils">
+            <img src="assets/images/icons/cooking oils.png" alt="" />
+            <h4>Cooking Oils</h4>
+            <p>(09 items)</p>
+          </div>
+
+          <div class="category-card pulps">
+            <img src="assets/images/icons/fruit pulp.png" alt="" />
+            <h4>Fruit Pulps</h4>
+            <p>(07 items)</p>
+          </div>
+
+          <div class="category-card agro">
+            <img src="assets/images/icons/agro.png" alt="" />
+            <h4>Agro Products</h4>
+            <p>(14 items)</p>
+          </div>
+
+          <div class="category-card oils2">
+            <img src="assets/images/icons/oil.png" alt="" />
+            <h4>Edible Oils</h4>
+            <p>(06 items)</p>
+          </div>
+
+          <div class="category-card wheat">
+            <img src="assets/images/icons/flour.png" alt="" />
+            <h4>Wheat & Flour</h4>
+            <p>(11 items)</p>
+          </div>
+
+          <div class="category-card rice">
+            <img src="assets/images/icons/rice.png" alt="" />
+            <h4>Rice & Products</h4>
+            <p>(15 items)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- products section -->
+    <section class="products-section" id="products">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Organic Products</h2>
+          <p>Nutritious cereals, pulses, rice & agro products</p>
+        </div>
+
+        <div class="pagination-controls">
+          <button id="prevPage" class="btn btn-outline-success">
+            Previous
+          </button>
+          <span id="pageInfo"></span>
+          <button id="nextPage" class="btn btn-outline-success">Next</button>
+        </div>
+        <div class="products-grid">
+          <!-- Product Card -->
+          <!-- card 1 -->
+          <!-- Product Card -->
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/bb/49/da/bb49da83696136b4bab55f220570032b.jpg"
+              alt="Red Apples"
+            />
+            <h3>Red Gala Apples</h3>
+            <p class="category">Sweet and crunchy orchard fresh.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 350 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Apples"
+              data-price="350"
+              data-image="https://i.pinimg.com/736x/bb/49/da/bb49da83696136b4bab55f220570032b.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/11/e9/07/11e90753bb249cec54b47e87d3ab95f8.jpg"
+              alt="Bananas"
+            />
+            <h3>Yellow Bananas</h3>
+            <p class="category">Naturally ripened premium dozen.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 180 /doz</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Bananas"
+              data-price="180"
+              data-image="https://i.pinimg.com/736x/11/e9/07/11e90753bb249cec54b47e87d3ab95f8.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/cc/20/90/cc209060f63bf1ec81c68a3769e83e69.jpg"
+              alt="Pomegranate"
+            />
+            <h3>Red Pomegranate</h3>
+            <p class="category">Juicy ruby-red seasonal fruit.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 380 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Pomegranate"
+              data-price="380"
+              data-image="https://i.pinimg.com/1200x/cc/20/90/cc209060f63bf1ec81c68a3769e83e69.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/f2/45/03/f24503074955392d350e25c8f3da8de7.jpg"
+              alt="Grapes"
+            />
+            <h3>Green Grapes</h3>
+            <p class="category">Seedless and sweet green grapes.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 290 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Grapes"
+              data-price="290"
+              data-image="https://i.pinimg.com/1200x/f2/45/03/f24503074955392d350e25c8f3da8de7.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/af/60/bc/af60bc6b445dd77a66a79e9c5e4296d1.jpg"
+              alt="Papaya"
+            />
+            <h3>Yellow Papaya</h3>
+            <p class="category">Fresh farm-harvested ripe papaya.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 180 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Papaya"
+              data-price="180"
+              data-image="https://i.pinimg.com/1200x/af/60/bc/af60bc6b445dd77a66a79e9c5e4296d1.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/18/f8/b6/18f8b64bf352f2c5405384fb5806fec0.jpg"
+              alt="Watermelon"
+            />
+            <h3>Watermelon</h3>
+            <p class="category">Hydrating large summer fruit.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 250 /pc</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Watermelon"
+              data-price="250"
+              data-image="https://i.pinimg.com/1200x/18/f8/b6/18f8b64bf352f2c5405384fb5806fec0.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/3f/44/73/3f4473c4c45ace3298748c56021431ce.jpg"
+              alt="Pears"
+            />
+            <h3>Fresh Pears</h3>
+            <p class="category">Soft and juicy green pears.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 220 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Pears"
+              data-price="220"
+              data-image="https://i.pinimg.com/736x/3f/44/73/3f4473c4c45ace3298748c56021431ce.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/5e/e4/71/5ee47116d89a7ecf60bab5d81f9a7dfe.jpg"
+              alt="Lemons"
+            />
+            <h3>Fresh Lemons</h3>
+            <p class="category">Zesty citrus for fresh juice.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 200 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Lemons"
+              data-price="200"
+              data-image="https://i.pinimg.com/1200x/5e/e4/71/5ee47116d89a7ecf60bab5d81f9a7dfe.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/f7/4a/98/f74a98159c3105da6ee9ff391cee3ee7.jpg"
+              alt="Guava"
+            />
+            <h3>Fresh Guava</h3>
+            <p class="category">Aromatic white-flesh guavas.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 150 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Guava"
+              data-price="150"
+              data-image="https://i.pinimg.com/736x/f7/4a/98/f74a98159c3105da6ee9ff391cee3ee7.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/0b/3a/19/0b3a199dfd0f5f722e200b9cfb1ec178.jpg"
+              alt="Oranges"
+            />
+            <h3>Kinnow Oranges</h3>
+            <p class="category">Juicy seasonal citrus fruit.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 200 /doz</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Oranges"
+              data-price="200"
+              data-image="https://i.pinimg.com/736x/0b/3a/19/0b3a199dfd0f5f722e200b9cfb1ec178.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/0e/02/fc/0e02fcf9434dc286c5b80948f1b97671.jpg"
+              alt="Dates"
+            />
+            <h3>Ajwa Dates</h3>
+            <p class="category">Premium quality soft dates.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 1500 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Dates"
+              data-price="1500"
+              data-image="https://i.pinimg.com/1200x/0e/02/fc/0e02fcf9434dc286c5b80948f1b97671.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/03/b4/cf/03b4cf21fe94455356f1e8423a0760ba.jpg"
+              alt="Strawberries"
+            />
+            <h3>Fresh Strawberries</h3>
+            <p class="category">Sweet and tart farm berries.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 400 /box</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Strawberries"
+              data-price="400"
+              data-image="https://i.pinimg.com/1200x/03/b4/cf/03b4cf21fe94455356f1e8423a0760ba.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/a1/0c/f4/a10cf40e64ee61a98d80f9a4e7c5d857.jpg"
+              alt="Potatoes"
+            />
+            <h3>Organic Potatoes</h3>
+            <p class="category">Fresh red skin potatoes.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 80 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Potatoes"
+              data-price="80"
+              data-image="https://i.pinimg.com/736x/a1/0c/f4/a10cf40e64ee61a98d80f9a4e7c5d857.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/a6/c8/d6/a6c8d605180d8c2d2ead13491a5343cf.jpg"
+              alt="Onions"
+            />
+            <h3>Red Onions</h3>
+            <p class="category">Fresh pungent red onions.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 120 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Onions"
+              data-price="120"
+              data-image="https://i.pinimg.com/1200x/a6/c8/d6/a6c8d605180d8c2d2ead13491a5343cf.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/eb/2d/10/eb2d100648248317a18293d927d820ce.jpg"
+              alt="Tomatoes"
+            />
+            <h3>Roma Tomatoes</h3>
+            <p class="category">Vine-ripened red tomatoes.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 100 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Tomatoes"
+              data-price="100"
+              data-image="https://i.pinimg.com/1200x/eb/2d/10/eb2d100648248317a18293d927d820ce.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/f4/3e/08/f43e08be84e10371d6a2c0885b16dd33.jpg"
+              alt="Garlic"
+            />
+            <h3>Fresh Garlic</h3>
+            <p class="category">Large bulb white garlic.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 320 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Garlic"
+              data-price="320"
+              data-image="https://i.pinimg.com/736x/f4/3e/08/f43e08be84e10371d6a2c0885b16dd33.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/58/a5/cb/58a5cbed96d9be2364f8f6716607e11e.jpg"
+              alt="Ginger"
+            />
+            <h3>Fresh Ginger</h3>
+            <p class="category">Strong aromatic ginger root.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 450 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Ginger"
+              data-price="450"
+              data-image="https://i.pinimg.com/1200x/58/a5/cb/58a5cbed96d9be2364f8f6716607e11e.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/be/55/08/be55083259bf339bbabc9ffb9134c093.jpg"
+              alt="Carrots"
+            />
+            <h3>Red Carrots</h3>
+            <p class="category">Crunchy seasonal winter carrots.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 60 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Carrots"
+              data-price="60"
+              data-image="https://i.pinimg.com/736x/be/55/08/be55083259bf339bbabc9ffb9134c093.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/4e/64/6f/4e646fce03001e7bfa1a38a1a636f6f4.jpg"
+              alt="Spinach"
+            />
+            <h3>Fresh Spinach</h3>
+            <p class="category">Green leafy Palak bunches.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 40 /bunch</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Spinach"
+              data-price="40"
+              data-image="https://i.pinimg.com/1200x/4e/64/6f/4e646fce03001e7bfa1a38a1a636f6f4.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/5e/0c/80/5e0c80f43693b9202052f0d6a719fc54.jpg"
+              alt="Okra"
+            />
+            <h3>Fresh Okra</h3>
+            <p class="category">Tender green ladyfingers.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 120 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Okra"
+              data-price="120"
+              data-image="https://i.pinimg.com/736x/5e/0c/80/5e0c80f43693b9202052f0d6a719fc54.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/bf/12/83/bf1283e3d7cc8a7551b30ad910be7dbf.jpg"
+              alt="Karela"
+            />
+            <h3>Bitter Gourd</h3>
+            <p class="category">Fresh farm-picked Karela.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 110 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Bitter Gourd"
+              data-price="110"
+              data-image="https://i.pinimg.com/736x/bf/12/83/bf1283e3d7cc8a7551b30ad910be7dbf.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/05/71/69/057169ddff72af202ab86ac248976d00.jpg"
+              alt="Cauliflower"
+            />
+            <h3>Cauliflower</h3>
+            <p class="category">Fresh white cauliflower heads.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 90 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Cauliflower"
+              data-price="90"
+              data-image="https://i.pinimg.com/736x/05/71/69/057169ddff72af202ab86ac248976d00.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/0e/10/ee/0e10ee75d021116d6629b16eb99a04ab.jpg"
+              alt="Brinjal"
+            />
+            <h3>Fresh Eggplant</h3>
+            <p class="category">Purple round brinjals.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 80 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Eggplant"
+              data-price="80"
+              data-image="https://i.pinimg.com/736x/0e/10/ee/0e10ee75d021116d6629b16eb99a04ab.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/c6/06/2e/c6062eb02d28123b5a03d6fa712472fd.jpg"
+              alt="Chilies"
+            />
+            <h3>Green Chilies</h3>
+            <p class="category">Spicy small green chilies.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 150 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Green Chili"
+              data-price="150"
+              data-image="https://i.pinimg.com/1200x/c6/06/2e/c6062eb02d28123b5a03d6fa712472fd.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/2c/7a/f4/2c7af4d6654c77510ddf14050a370480.jpg"
+              alt="Basmati Rice"
+            />
+            <h3>Super Kernel Rice</h3>
+            <p class="category">Aromatic long grain rice.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 220 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Basmati Rice"
+              data-price="220"
+              data-image="https://i.pinimg.com/736x/2c/7a/f4/2c7af4d6654c77510ddf14050a370480.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/82/0c/68/820c6820af2e1f90ee78383f40c8e532.jpg"
+              alt="Sella Rice"
+            />
+            <h3>Sella Basmati Rice</h3>
+            <p class="category">Golden parboiled rice.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 250 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Sella Rice"
+              data-price="250"
+              data-image="https://i.pinimg.com/736x/82/0c/68/820c6820af2e1f90ee78383f40c8e532.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/39/04/f1/3904f17d2513933cc7a41cd0f536eb74.jpg"
+              alt="Brown Rice"
+            />
+            <h3>Organic Brown Rice</h3>
+            <p class="category">Whole grain healthy rice.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 310 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Brown Rice"
+              data-price="310"
+              data-image="https://i.pinimg.com/736x/39/04/f1/3904f17d2513933cc7a41cd0f536eb74.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/09/fa/c5/09fac548dd388e206326ca581913142c.jpg"
+              alt="Bajra"
+            />
+            <h3>Pearl Millet (Bajra)</h3>
+            <p class="category">Raw organic pearl millet.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 140 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Millet"
+              data-price="140"
+              data-image="https://i.pinimg.com/736x/09/fa/c5/09fac548dd388e206326ca581913142c.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/9f/67/42/9f6742a7eeb644a5171572423afdf273.jpg"
+              alt="Jowar"
+            />
+            <h3>Sorghum (Jowar)</h3>
+            <p class="category">Raw whole sorghum grain.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 160 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Sorghum"
+              data-price="160"
+              data-image="https://i.pinimg.com/736x/9f/67/42/9f6742a7eeb644a5171572423afdf273.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/dd/c9/fc/ddc9fc53872182b66fcd3395f2eac283.jpg"
+              alt="Barley"
+            />
+            <h3>Pearl Barley</h3>
+            <p class="category">Fiber-rich raw barley.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 190 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Barley"
+              data-price="190"
+              data-image="https://i.pinimg.com/1200x/dd/c9/fc/ddc9fc53872182b66fcd3395f2eac283.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/e0/7d/68/e07d682d524ed24f35e5a4f613320858.jpg"
+              alt="Oats"
+            />
+            <h3>Whole Oats</h3>
+            <p class="category">Raw steel-cut oat groats.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 380 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Oats"
+              data-price="380"
+              data-image="https://i.pinimg.com/736x/e0/7d/68/e07d682d524ed24f35e5a4f613320858.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/f6/22/85/f622851843d8f64e4f69a5752e3e88a0.jpg"
+              alt="Buckwheat"
+            />
+            <h3>Buckwheat</h3>
+            <p class="category">Gluten-free raw grain.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 450 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Buckwheat"
+              data-price="450"
+              data-image="https://i.pinimg.com/1200x/f6/22/85/f622851843d8f64e4f69a5752e3e88a0.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/e4/38/2c/e4382c0ee1ae016540f4181e32a586c2.jpg"
+              alt="Quinoa"
+            />
+            <h3>White Quinoa</h3>
+            <p class="category">Organic raw quinoa seeds.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 950 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Quinoa"
+              data-price="950"
+              data-image="https://i.pinimg.com/736x/e4/38/2c/e4382c0ee1ae016540f4181e32a586c2.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/5d/29/2e/5d292e0f426b43468d484bc256f6bf1f.jpg"
+              alt="Corn"
+            />
+            <h3>Whole Corn</h3>
+            <p class="category">Dried yellow corn kernels.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 120 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Corn"
+              data-price="120"
+              data-image="https://i.pinimg.com/736x/5d/29/2e/5d292e0f426b43468d484bc256f6bf1f.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/d3/e7/e4/d3e7e464b58afdb629686e8b0d93283d.jpg"
+              alt="Wheat"
+            />
+            <h3>Whole Wheat Grain</h3>
+            <p class="category">Raw premium wheat berry.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 130 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Wheat"
+              data-price="130"
+              data-image="https://i.pinimg.com/736x/d3/e7/e4/d3e7e464b58afdb629686e8b0d93283d.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/d8/ae/37/d8ae37f355c4ce0b1159ea0f35f8d11b.jpg"
+              alt="Flax"
+            />
+            <h3>Flaxseeds (Alsi)</h3>
+            <p class="category">Raw nutritious flaxseeds.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 180 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Flaxseeds"
+              data-price="180"
+              data-image="https://i.pinimg.com/1200x/d8/ae/37/d8ae37f355c4ce0b1159ea0f35f8d11b.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/96/ae/a0/96aea028a2fa8acded592fa7ea3b3f47.jpg"
+              alt="Daal Chana"
+            />
+            <h3>Daal Chana</h3>
+            <p class="category">Polished yellow split peas.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 180 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Daal Chana"
+              data-price="180"
+              data-image="https://i.pinimg.com/1200x/96/ae/a0/96aea028a2fa8acded592fa7ea3b3f47.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/b2/74/1f/b2741f6d4a06225e1a3aef28ce5ebc8c.jpg"
+              alt="Daal Moong"
+            />
+            <h3>Daal Moong</h3>
+            <p class="category">Washed yellow split moong.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 220 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Daal Moong"
+              data-price="220"
+              data-image="https://i.pinimg.com/736x/b2/74/1f/b2741f6d4a06225e1a3aef28ce5ebc8c.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/fa/a6/c8/faa6c8358ed33dd57b202a2d21ec0d21.jpg"
+              alt="Daal Mash"
+            />
+            <h3>Daal Mash</h3>
+            <p class="category">Premium washed split mash.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 380 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Daal Mash"
+              data-price="380"
+              data-image="https://i.pinimg.com/736x/fa/a6/c8/faa6c8358ed33dd57b202a2d21ec0d21.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/2c/05/ad/2c05ad25b9f246316718be12d10faabe.jpg"
+              alt="Daal Masoor"
+            />
+            <h3>Daal Masoor</h3>
+            <p class="category">Split red lentils.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 240 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Daal Masoor"
+              data-price="240"
+              data-image="https://i.pinimg.com/736x/2c/05/ad/2c05ad25b9f246316718be12d10faabe.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/a2/3e/57/a23e57493e9d8c52a5bd3017461b5a92.jpg"
+              alt="White Chana"
+            />
+            <h3>White Chickpeas</h3>
+            <p class="category">Kabuli Chana (Large).</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 290 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="White Chana"
+              data-price="290"
+              data-image="https://i.pinimg.com/1200x/a2/3e/57/a23e57493e9d8c52a5bd3017461b5a92.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/1a/61/90/1a61903e86808084837c4465c81e393c.jpg"
+              alt="Black Chana"
+            />
+            <h3>Black Chickpeas</h3>
+            <p class="category">Raw Desi Kala Chana.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 210 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Black Chana"
+              data-price="210"
+              data-image="https://i.pinimg.com/736x/1a/61/90/1a61903e86808084837c4465c81e393c.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/7e/fc/b8/7efcb8f62e7e750759b682e5fbd350c1.jpg"
+              alt="Red Beans"
+            />
+            <h3>Red Kidney Beans</h3>
+            <p class="category">Premium Lobia / Rajma.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 320 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Red Beans"
+              data-price="320"
+              data-image="https://i.pinimg.com/1200x/7e/fc/b8/7efcb8f62e7e750759b682e5fbd350c1.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/0c/ff/95/0cff95fa5a8d6f25a1e93d9881c76dda.jpg"
+              alt="Lobia"
+            />
+            <h3>White Kidney Beans</h3>
+            <p class="category">Raw white beans / Lobia.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 300 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="White Beans"
+              data-price="300"
+              data-image="https://i.pinimg.com/1200x/0c/ff/95/0cff95fa5a8d6f25a1e93d9881c76dda.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/6f/ca/86/6fca86a03adbbb71b4a3ade0fc5b0ab9.jpg"
+              alt="Peas"
+            />
+            <h3>Dried Green Peas</h3>
+            <p class="category">Raw whole green peas.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 240 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Green Peas"
+              data-price="240"
+              data-image="https://i.pinimg.com/1200x/6f/ca/86/6fca86a03adbbb71b4a3ade0fc5b0ab9.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/b4/8f/49/b48f4931bac5bd12e81e4d12ebc7f6ff.jpg"
+              alt="Yellow Peas"
+            />
+            <h3>Dried Yellow Peas</h3>
+            <p class="category">Raw whole yellow peas.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 210 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Yellow Peas"
+              data-price="210"
+              data-image="https://i.pinimg.com/736x/b4/8f/49/b48f4931bac5bd12e81e4d12ebc7f6ff.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/14/90/23/14902367c2cd33b9dbceb866ea00a93a.jpg"
+              alt="Soybeans"
+            />
+            <h3>Raw Soybeans</h3>
+            <p class="category">High protein yellow beans.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 220 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Soybeans"
+              data-price="220"
+              data-image="https://i.pinimg.com/1200x/14/90/23/14902367c2cd33b9dbceb866ea00a93a.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/80/d3/b4/80d3b47b0648e39938e8e9e4842b3142.jpg"
+              alt="Whole Mung"
+            />
+            <h3>Whole Mung Beans</h3>
+            <p class="category">Raw green mung whole.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 260 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Whole Mung"
+              data-price="260"
+              data-image="https://i.pinimg.com/736x/80/d3/b4/80d3b47b0648e39938e8e9e4842b3142.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/2e/4c/69/2e4c69fee9d3166953d3799b691c5b85.jpg"
+              alt="Atta"
+            />
+            <h3>Chakki Wheat Atta</h3>
+            <p class="category">100% whole wheat flour.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 1450 /10kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Wheat Atta"
+              data-price="1450"
+              data-image="https://i.pinimg.com/736x/2e/4c/69/2e4c69fee9d3166953d3799b691c5b85.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/3d/73/0d/3d730d67afb6c4fa8477cb7e81b4a73f.jpg"
+              alt="Besan"
+            />
+            <h3>Gram Flour (Besan)</h3>
+            <p class="category">Pure chickpea flour.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 190 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Besan"
+              data-price="190"
+              data-image="https://i.pinimg.com/736x/3d/73/0d/3d730d67afb6c4fa8477cb7e81b4a73f.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/81/5d/5a/815d5a76e701edbce602f109e3f79354.jpg"
+              alt="Maida"
+            />
+            <h3>Fine Maida Flour</h3>
+            <p class="category">Triple sifted all-purpose.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 120 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Maida"
+              data-price="120"
+              data-image="https://i.pinimg.com/1200x/81/5d/5a/815d5a76e701edbce602f109e3f79354.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/ec/f1/55/ecf15507b746308b1b5b704dfbe68e08.jpg"
+              alt="Rice Flour"
+            />
+            <h3>Fine Rice Flour</h3>
+            <p class="category">Silky white rice powder.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 140 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Rice Flour"
+              data-price="140"
+              data-image="https://i.pinimg.com/1200x/ec/f1/55/ecf15507b746308b1b5b704dfbe68e08.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/a3/fa/e9/a3fae9872b75b6681d39cc89894f5d56.jpg"
+              alt="Corn Flour"
+            />
+            <h3>White Corn Flour</h3>
+            <p class="category">Pure thickening starch.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 150 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Corn Flour"
+              data-price="150"
+              data-image="https://i.pinimg.com/736x/a3/fa/e9/a3fae9872b75b6681d39cc89894f5d56.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/6b/8b/e3/6b8be329687ab8d97a3ef244f4f38448.jpg"
+              alt="Makai"
+            />
+            <h3>Yellow Corn Meal</h3>
+            <p class="category">Traditional Makai Atta.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 120 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Makai Atta"
+              data-price="120"
+              data-image="https://i.pinimg.com/736x/6b/8b/e3/6b8be329687ab8d97a3ef244f4f38448.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/0f/a5/79/0fa5799e82a3816f9fa61e255b758174.jpg"
+              alt="Suji"
+            />
+            <h3>Semolina (Suji)</h3>
+            <p class="category">Fine wheat semolina.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 130 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Suji"
+              data-price="130"
+              data-image="https://i.pinimg.com/736x/0f/a5/79/0fa5799e82a3816f9fa61e255b758174.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/48/7b/a5/487ba56a9e3770740dfe8dc102060ef2.jpg"
+              alt="Multigrain"
+            />
+            <h3>Multigrain Flour</h3>
+            <p class="category">Mix of 7 healthy grains.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 220 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Multigrain"
+              data-price="220"
+              data-image="https://i.pinimg.com/736x/48/7b/a5/487ba56a9e3770740dfe8dc102060ef2.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/b3/14/a3/b314a3232d48c72682cb7da664fff87d.jpg"
+              alt="Jau"
+            />
+            <h3>Barley Flour</h3>
+            <p class="category">Roasted Jau Ka Atta.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 160 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Barley Flour"
+              data-price="160"
+              data-image="https://i.pinimg.com/1200x/b3/14/a3/b314a3232d48c72682cb7da664fff87d.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/48/9a/c7/489ac7ea5d85802cdf02829cfeb1a620.jpg"
+              alt="Oat Flour"
+            />
+            <h3>Oat Flour</h3>
+            <p class="category">Finely ground whole oats.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 280 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Oat Flour"
+              data-price="280"
+              data-image="https://i.pinimg.com/1200x/48/9a/c7/489ac7ea5d85802cdf02829cfeb1a620.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/35/4a/cd/354acdd44b59309285bab6df65338c0b.jpg"
+              alt="Bajra Atta"
+            />
+            <h3>Millet Flour</h3>
+            <p class="category">Pure pearl millet flour.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 170 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Millet Flour"
+              data-price="170"
+              data-image="https://i.pinimg.com/736x/35/4a/cd/354acdd44b59309285bab6df65338c0b.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/02/fe/53/02fe53c4e8c5e5197f38f35ec2a2d3a0.jpg"
+              alt="Jowar Atta"
+            />
+            <h3>Sorghum Flour</h3>
+            <p class="category">White Jowar Ka Atta.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 180 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Sorghum Flour"
+              data-price="180"
+              data-image="https://i.pinimg.com/1200x/02/fe/53/02fe53c4e8c5e5197f38f35ec2a2d3a0.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/74/44/94/744494f7376dbbe7b3fe0b9fa921d5de.jpg"
+              alt="Mango Pulp"
+            />
+            <h3>Mango Pulp</h3>
+            <p class="category">Sweet Alphonso mango pulp.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 450 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Mango Pulp"
+              data-price="450"
+              data-image="https://i.pinimg.com/1200x/74/44/94/744494f7376dbbe7b3fe0b9fa921d5de.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/99/83/e3/9983e3f846027bb0105ae46f964be81c.jpg"
+              alt="Guava Pulp"
+            />
+            <h3>Pink Guava Pulp</h3>
+            <p class="category">Pure fruit concentrate.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 320 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Guava Pulp"
+              data-price="320"
+              data-image="https://i.pinimg.com/1200x/99/83/e3/9983e3f846027bb0105ae46f964be81c.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/5c/00/d9/5c00d9cc86305325abbe05688ba3cb72.jpg"
+              alt="Tomato Pulp"
+            />
+            <h3>Tomato Pulp</h3>
+            <p class="category">Crushed raw tomato base.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 180 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Tomato Pulp"
+              data-price="180"
+              data-image="https://i.pinimg.com/736x/5c/00/d9/5c00d9cc86305325abbe05688ba3cb72.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/80/6c/35/806c355c21c3133a46f9f2381c5280c2.jpg"
+              alt="Date Pulp"
+            />
+            <h3>Date Paste</h3>
+            <p class="category">Pitted mashed raw dates.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 600 /kg</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Date Paste"
+              data-price="600"
+              data-image="https://i.pinimg.com/1200x/80/6c/35/806c355c21c3133a46f9f2381c5280c2.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/f7/92/05/f792057b75f8e1e784692a6ffc5d8cda.jpg"
+              alt="Imli"
+            />
+            <h3>Tamarind Pulp</h3>
+            <p class="category">Tangy raw Imli paste.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 150 /pack</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Tamarind"
+              data-price="150"
+              data-image="https://i.pinimg.com/736x/f7/92/05/f792057b75f8e1e784692a6ffc5d8cda.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/61/f1/06/61f10642f01c6b4796947fc4933466c5.jpg"
+              alt="Apricot"
+            />
+            <h3>Apricot Pulp</h3>
+            <p class="category">Fresh hill apricot concentrate.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 380 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Apricot"
+              data-price="380"
+              data-image="https://i.pinimg.com/1200x/61/f1/06/61f10642f01c6b4796947fc4933466c5.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/3a/e6/83/3ae683d8f4bd2d1dbc41b254a399a352.jpg"
+              alt="Strawberry"
+            />
+            <h3>Strawberry Pulp</h3>
+            <p class="category">Pure red berry concentrate.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 420 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Strawberry Pulp"
+              data-price="420"
+              data-image="https://i.pinimg.com/1200x/3a/e6/83/3ae683d8f4bd2d1dbc41b254a399a352.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/9c/00/60/9c00606f859ffcabb635ddeab76f553d.jpg"
+              alt="Apple"
+            />
+            <h3>Apple Pulp</h3>
+            <p class="category">Sweet crushed apple base.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 350 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Apple Pulp"
+              data-price="350"
+              data-image="https://i.pinimg.com/736x/9c/00/60/9c00606f859ffcabb635ddeab76f553d.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/03/bb/57/03bb574ec5114799e8005b265d05f6d1.jpg"
+              alt="Peach"
+            />
+            <h3>Peach Pulp</h3>
+            <p class="category">Smooth fruit peach pulp.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 400 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Peach Pulp"
+              data-price="400"
+              data-image="https://i.pinimg.com/736x/03/bb/57/03bb574ec5114799e8005b265d05f6d1.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/1200x/ad/d5/e6/add5e6b5b21884867815a3dd3845d74b.jpg"
+              alt="Papaya"
+            />
+            <h3>Papaya Pulp</h3>
+            <p class="category">Raw tropical papaya paste.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 300 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Papaya Pulp"
+              data-price="300"
+              data-image="https://i.pinimg.com/1200x/ad/d5/e6/add5e6b5b21884867815a3dd3845d74b.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/9c/00/60/9c00606f859ffcabb635ddeab76f553d.jpg"
+              alt="Pineapple"
+            />
+            <h3>Pineapple Pulp</h3>
+            <p class="category">Tangy crushed pineapple.</p>
+            <div class="rating">★★★★☆</div>
+            <div class="price"><span class="current">Rs. 450 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Pineapple"
+              data-price="450"
+              data-image="https://i.pinimg.com/736x/9c/00/60/9c00606f859ffcabb635ddeab76f553d.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://i.pinimg.com/736x/68/ad/95/68ad9534fd428808cce3e4257bec2a81.jpg"
+              alt="Mix Fruit"
+            />
+            <h3>Mixed Fruit Pulp</h3>
+            <p class="category">Blend of seasonal pulps.</p>
+            <div class="rating">★★★★★</div>
+            <div class="price"><span class="current">Rs. 480 /can</span></div>
+            <button
+              class="cart-btn"
+              onclick="addToCart(this)"
+              data-name="Mixed Pulp"
+              data-price="480"
+              data-image="https://i.pinimg.com/736x/68/ad/95/68ad9534fd428808cce3e4257bec2a81.jpg"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- showcase section -->
+    <!-- Showcase Gallery Section -->
+    <section class="showcase-section" id="showcase">
+      <div class="container">
+        <div class="section-header">
+          <h2>Product Showcase Gallery</h2>
+          <p>Discover our premium organic products collection</p>
+        </div>
+
+        <div class="showcase-grid">
+          <!-- Large Featured Item -->
+          <div class="showcase-item large">
+            <img
+              src="assets/images/showcase img/showcase organic product pics.jpg"
+              alt="Organic Products"
+            />
+            <div class="showcase-overlay">
+              <h3>Organic Products</h3>
+              <p>Farm fresh collection</p>
+            </div>
+          </div>
+
+          <!-- Medium Items -->
+          <div class="showcase-item medium">
+            <img src="assets/images/showcase img/showcase cereals pic.jpg" alt="Cereals" />
+            <div class="showcase-overlay">
+              <h3>Nutritious Cereals</h3>
+              <p>Healthy & Natural</p>
+            </div>
+          </div>
+
+          <div class="showcase-item medium">
+            <img src="assets/images/showcase img/showcase rice pics.jpg" alt="Rice" />
+            <div class="showcase-overlay">
+              <h3>Premium Rice</h3>
+              <p>Quality Guaranteed</p>
+            </div>
+          </div>
+
+          <!-- Small Items -->
+          <div class="showcase-item small">
+            <img src="assets/images/showcase img/showcase pulses pics.jpg" alt="Pulses" />
+            <div class="showcase-overlay">
+              <h3>Fresh Pulses</h3>
+            </div>
+          </div>
+
+          <div class="showcase-item small">
+            <img src="assets/images/showcase img/showcase edible oil.jpg" alt="Cooking Oil" />
+            <div class="showcase-overlay">
+              <h3>Edible Oils</h3>
+            </div>
+          </div>
+
+          <div class="showcase-item small">
+            <img src="assets/images/showcase img/showcase spices pics.jpg" alt="Spices" />
+            <div class="showcase-overlay">
+              <h3>Authentic Spices</h3>
+            </div>
+          </div>
+
+          <div class="showcase-item small">
+            <img src="assets/images/showcase img/showcase oil pic.jpg" alt="Cooking Oil" />
+            <div class="showcase-overlay">
+              <h3>Cooking Oils</h3>
+            </div>
+          </div>
+
+          <!-- Additional Medium Items -->
+          <div class="showcase-item medium">
+            <img src="assets/images/showcase img/showcase fruit pulp.jpg" alt="Fruit Pulp" />
+            <div class="showcase-overlay">
+              <h3>Fruit Pulps</h3>
+              <p>Natural & Pure</p>
+            </div>
+          </div>
+
+          <div class="showcase-item medium">
+            <img src="assets/images/showcase img/showcase flour.jpg" alt="Flour" />
+            <div class="showcase-overlay">
+              <h3>Wheat & Flour</h3>
+              <p>Premium Quality</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Customer Reviews Section -->
+        <div class="reviews-section">
+          <h3>What Our Customers Say</h3>
+          <p class="reviews-subtitle">
+            Trusted by thousands of happy customers
+          </p>
+
+          <div class="reviews-grid">
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">AK</div>
+                  <div>
+                    <h4>Ahmed Khan</h4>
+                    <div class="review-rating">★★★★★</div>
+                  </div>
+                </div>
+                <span class="review-date">2 weeks ago</span>
+              </div>
+              <p class="review-text">
+                "Excellent quality products! The rice is so fresh and the
+                packaging is perfect. I've been ordering from Star Organic Farm
+                for months now and never disappointed."
+              </p>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">SF</div>
+                  <div>
+                    <h4>Sara Fatima</h4>
+                    <div class="review-rating">★★★★★</div>
+                  </div>
+                </div>
+                <span class="review-date">1 month ago</span>
+              </div>
+              <p class="review-text">
+                "Best organic products in Pakistan! Their spices are authentic
+                and the cooking oils are pure. Highly recommend for
+                health-conscious families."
+              </p>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">MH</div>
+                  <div>
+                    <h4>Muhammad Hassan</h4>
+                    <div class="review-rating">★★★★☆</div>
+                  </div>
+                </div>
+                <span class="review-date">3 weeks ago</span>
+              </div>
+              <p class="review-text">
+                "Great collection of cereals and pulses. The delivery was fast
+                and everything was well packaged. Prices are reasonable too!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact and query section -->
+    <div class="premium-bg py-5">
+      <div class="container" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">
+          Get in touch for orders, partnerships, and general inquiries
+        </p>
+
+        <div class="row g-4">
+          <!-- Contact Card -->
+          <div class="col-md-6">
+            <div class="contact-card h-100">
+              <div class="contact-header">
+                <h5>Contact Information</h5>
+              </div>
+
+              <div class="contact-body">
+                <div class="info-item">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div>
+                    <strong>Office Address</strong><br />
+                    star organic farm<br />
+                    Karachi, Pakistan.
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                  <div>
+                    <strong>Email</strong><br />
+                    info@ystarorganicfarm.com<br />
+                    sales@starorganicfarm.com
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="icon-box"><i class="fas fa-phone"></i></div>
+                  <div>
+                    <strong>Phone</strong><br />
+                    +92-313-2456789
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="icon-box"><i class="fas fa-clock"></i></div>
+                  <div>
+                    <strong>Business Hours</strong><br />
+                    Mon – Sat: 9:00 AM – 6:00 PM
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Query Card -->
+          <div class="col-md-6">
+            <div class="query-card h-100" id="query">
+              <h5>Product Inquiry</h5>
+
+              <form id="queryForm">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Phone Number"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <select class="form-select" required>
+                    <option value="">Select Product Category</option>
+                    <option>Nutritious Cereals</option>
+                    <option>Pulses</option>
+                    <option>Spices</option>
+                    <option>Cooking Oils</option>
+                    <option>Fruit Pulps</option>
+                    <option>Agro Products</option>
+                    <option>Wheat & Wheat Flour</option>
+                    <option>Rice & Rice Products</option>
+                    <option>Others</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Product Name (optional)"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Quantity Required"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    rows="4"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">
+                  Submit Inquiry
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <p class="footer-note">
+          We are committed to supplying premium-quality, safe, and nutritious
+          food products meeting international standards.
+        </p>
+      </div>
+    </div>
+    <!-- /contact and query section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Your Cart</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+            <div id="cartItems"></div>
+
+            <hr />
+
+            <div class="d-flex justify-content-between">
+              <strong>Subtotal</strong>
+              <strong id="cartSubtotal">Rs. 0</strong>
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <span>Delivery</span>
+              <span>Rs. 250</span>
+            </div>
+
+            <hr />
+
+            <div class="d-flex justify-content-between fs-5">
+              <strong>Total</strong>
+              <strong id="cartTotal">Rs. 0</strong>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-success w-100">Place Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imageModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transparent border-0">
+          <img id="modalImage" src="" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
+<!-- footer section  -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- About -->
+      <div class="footer-col">
+        <h4>About Star Organic Farm</h4>
+        <p>
+          Delivering farm-fresh, 100% organic cereals, pulses, spices, oils and
+          agro products directly to your doorstep.
+        </p>
+      </div>
+
+      <!-- our promise -->
+      <div class="footer-col">
+        <h4>Our Promise</h4>
+        <ul class="footer-badges">
+          <li>🌿 100% Organic Products</li>
+          <li>🧪 No Harmful Chemicals</li>
+          <li>🚜 Farm Direct Sourcing</li>
+          <li>📦 Hygienic Packaging</li>
+        </ul>
+      </div>
+
+      <!-- delivery and orders -->
+      <div class="footer-col">
+        <h4>Delivery & Orders</h4>
+        <ul>
+          <li>🚚 All Pakistan Delivery</li>
+          <li>💵 Cash on Delivery Available</li>
+          <li>⏱ Fast Processing</li>
+          <li>🔒 Secure Payments</li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    © 2026 Star Organic Farm. All Rights Reserved.
+  </div>
+</footer>

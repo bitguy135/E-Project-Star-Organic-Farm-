@@ -1,0 +1,137 @@
+    <!-- Showcase Gallery Section -->
+    <section class="showcase-section" id="showcase">
+      <div class="container">
+        <div class="section-header">
+          <h2>Product Showcase Gallery</h2>
+          <p>Discover our premium organic products collection</p>
+        </div>
+
+        <div class="showcase-grid">
+          <!-- Large Featured Item -->
+          <div class="showcase-item large" onclick="openImageModal(this)">
+            <img src="hero img 1.webp" alt="House Plants" />
+            <div class="showcase-overlay">
+              <h3>Organic Products</h3>
+              <p>Farm fresh collection</p>
+            </div>
+          </div>
+
+          <!-- Medium Items -->
+          <div class="showcase-item medium" onclick="openImageModal(this)">
+            <img src="cereal.png" alt="Indoor Plants" />
+            <div class="showcase-overlay">
+              <h3>Nutritious Cereals</h3>
+              <p>Healthy & Natural</p>
+            </div>
+          </div>
+
+          <div class="showcase-item medium" onclick="openImageModal(this)">
+            <img src="hero img 2.PNG" alt="Monstera Plant Care" />
+            <div class="showcase-overlay">
+              <h3>Premium Rice</h3>
+              <p>Quality Guaranteed</p>
+            </div>
+          </div>
+
+          <!-- Small Items -->
+          <div class="showcase-item small" onclick="openImageModal(this)">
+            <img src="pulses.png" alt="New Arrivals" />
+            <div class="showcase-overlay">
+              <h3>Fresh Pulses</h3>
+            </div>
+          </div>
+
+          <div class="showcase-item small" onclick="openImageModal(this)">
+            <img src="spices.png" alt="Bedroom Plants" />
+            <div class="showcase-overlay">
+              <h3>Authentic Spices</h3>
+            </div>
+          </div>
+
+          <div class="showcase-item small" onclick="openImageModal(this)">
+            <img src="cooking oils.png" alt="Indoor Care" />
+            <div class="showcase-overlay">
+              <h3>Cooking Oils</h3>
+            </div>
+          </div>
+
+          <!-- Additional Medium Items -->
+          <div class="showcase-item medium" onclick="openImageModal(this)">
+            <img src="hero img 3.jpeg" alt="Plant Collection" />
+            <div class="showcase-overlay">
+              <h3>Fruit Pulps</h3>
+              <p>Natural & Pure</p>
+            </div>
+          </div>
+
+          <div class="showcase-item medium" onclick="openImageModal(this)">
+            <img src="flour.png" alt="Organic Products" />
+            <div class="showcase-overlay">
+              <h3>Wheat & Flour</h3>
+              <p>Premium Quality</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Customer Reviews Section -->
+        <div class="reviews-section">
+          <h3>What Our Customers Say</h3>
+          <p class="reviews-subtitle">Trusted by thousands of happy customers</p>
+
+          <div class="reviews-grid">
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">AK</div>
+                  <div>
+                    <h4>Ahmed Khan</h4>
+                    <div class="review-rating">★★★★★</div>
+                  </div>
+                </div>
+                <span class="review-date">2 weeks ago</span>
+              </div>
+              <p class="review-text">
+                "Excellent quality products! The rice is so fresh and the
+                packaging is perfect. I've been ordering from Star Organic Farm
+                for months now and never disappointed."
+              </p>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">SF</div>
+                  <div>
+                    <h4>Sara Fatima</h4>
+                    <div class="review-rating">★★★★★</div>
+                  </div>
+                </div>
+                <span class="review-date">1 month ago</span>
+              </div>
+              <p class="review-text">
+                "Best organic products in Pakistan! Their spices are authentic
+                and the cooking oils are pure. Highly recommend for health-conscious
+                families."
+              </p>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">MH</div>
+                  <div>
+                    <h4>Muhammad Hassan</h4>
+                    <div class="review-rating">★★★★☆</div>
+                  </div>
+                </div>
+                <span class="review-date">3 weeks ago</span>
+              </div>
+              <p class="review-text">
+                "Great collection of cereals and pulses. The delivery was fast
+                and everything was well packaged. Prices are reasonable too!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
